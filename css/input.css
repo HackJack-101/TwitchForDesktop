@@ -1,0 +1,15 @@
+input[type="text"]
+{
+    padding: 0.5em;
+    border: none;
+    border-radius: 2px;
+    flex-grow: 5;
+    margin-left: 10px;
+}
+
+input[type="submit"]
+{
+    flex-grow: 1;
+    margin-right: 10px;
+    margin-left: 5px;
+}

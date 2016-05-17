@@ -1,0 +1,37 @@
+#following {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+}
+
+#following .stream {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    height: 175px;
+    padding: 3px;
+    text-align: center;
+    margin: 8px;
+    cursor: pointer;
+}
+
+#following img {
+    width:230px;
+}
+
+#following .status {
+    width: 230px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0.95em;
+}
+
+#following .subtitle {
+    font-size: 0.75em;
+    color: rgba(255,255,255,0.75);
+}

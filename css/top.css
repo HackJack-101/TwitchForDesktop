@@ -1,0 +1,37 @@
+#topGames {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#topGames .game {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    height: 250px;
+    padding: 3px;
+    text-align: center;
+    margin: 8px;
+    cursor: pointer;
+}
+
+#topGames img {
+    width: 154px;
+}
+
+#topGames .gameName {
+    width: 140px;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 0.95em;
+}
+
+#topGames .viewers {
+    font-size: 0.75em;
+    color: rgba(255,255,255,0.75);
+}

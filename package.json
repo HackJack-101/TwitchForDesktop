@@ -1,0 +1,19 @@
+{
+  "name": "TwitchDesktop",
+  "version": "0.0.5",
+  "description": "Twitch for Desktop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "keywords": [
+    "Electron",
+    "Twitch"
+  ],
+  "author": "HackJack",
+  "license": "Apache 2",
+  "devDependencies": {
+    "electron-packager": "^7.0.1",
+    "electron-prebuilt": "^1.0.1"
+  }
+}

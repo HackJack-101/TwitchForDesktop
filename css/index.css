@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    width: 100vw;
+    height: 100vh;
+}
+
+#content{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.visible {
+    display: block;
+}
+
+iframe {
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    background: #3A1F64;
+}
+
+#brand {
+    margin-left: 2em;
+    flex-grow: 50;
+}
+
+#searchBar {
+    display:none;
+}
+
+#submenu {
+    margin-right: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+#overlay {
+    display: none;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    justify-content: center;
+}
+
+#modalWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#modal {
+    background: white;
+    width: 500px;
+    height: 250px;
+    border-radius: 5px;
+    border-top: 40px #6441A5 solid;
+}
+
+#modal header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin-top: -37px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#modal .title {
+    padding-left: 10px;
+}
+
+#closeModal {
+    padding-right: 7px;
+    margin-top: -7px;
+    cursor: pointer;
+}
+
+#modal .body{
+    padding: 10px;
+    color: black;
+}
+
+#modal input[type="text"]{
+    border-bottom: solid 1px #3A1F64;
+    border-radius: 0px;
+}
+
+#saveParameters{
+    display: block;
+}
+
+button {
+    background: #6441A5;
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
